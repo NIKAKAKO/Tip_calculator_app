@@ -1,0 +1,117 @@
+body {
+    background: #F2F2F2;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    max-width: 100%;
+    max-height: 100%;
+   
+}
+
+
+#white {
+width:920px;
+height:481px;
+display:flex;
+align-items: center;
+justify-content: flex-start;
+border-radius:15px;
+background: #ffffff;
+}
+
+#input {
+    padding-left:48px;
+    padding-right:48px;
+    width:380px;
+    height:481px;
+    display:flex;
+    align-items:flex-start;
+    flex-direction:column;
+    justify-content:space-around;
+    background: #ffffff;
+
+}
+#buttons {
+    display:flex;
+    align-items:center;
+    flex-direction:row;
+    justify-content:space-between;
+    flex-wrap: wrap;
+  
+
+}
+
+.but {
+
+width:117px;
+height:48px;
+margin-bottom:16px;
+
+}
+
+.inp {
+
+    width:379px;
+    background-color: #F3F9FA;
+    height:48px;
+    font-size:48px;
+}
+
+.result {
+width:413px;
+height:327px;
+border-radius:15px;
+background-color:#00474B;
+display:flex;
+justify-content:space-between;
+padding:45px;
+color:#ffffff;
+margin-right:20px;
+flex-direction:column;
+
+}
+
+.tipamountM {
+
+margin-bottom:50px;
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+
+}
+
+
+#people {
+    width:380px;
+display:flex;
+flex-direction:row;
+justify-content:space-between;
+
+
+}
+
+#cantbetext {
+    display:none;
+
+
+}
+
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        /* display: none; <- Crashes Chrome on hover */
+        -webkit-appearance: none;
+        margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+    }
+    
+    input[type=number] {
+        -moz-appearance:textfield; /* Firefox */
+    }
+
+#reset {
+
+background-color: #26C2AE;
+Width:333px;
+height:48px;
+font-size:20px;
+}

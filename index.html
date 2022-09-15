@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  
+
+
+  <link rel="stylesheet" href="mystyle.css">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Tip calculator app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+
+</head>
+<body>
+<div id="white">
+
+
+<div id="input">
+<div id="bill"> 
+<p>Bill</p>
+<input id="inp1" class="inp" oninput="this.value = Math.round(this.value);" type="number" >
+</div>
+
+<div id="tip">
+  <p>Select Tip</p>
+<div id="buttons">
+  <button class="but" value="0.05"  id="but1">5%</button>
+  <button class="but" value="0.1">10%</button>
+  <button class="but" value="0.15">15%</button>
+  <button class="but" value="0.25">25%</button>
+  <button class="but" value="0.5">50%</button>
+  <input class="but" id="custom" type="button" value="Custom"></button>
+</div>
+</div>
+<div id="peopleall">
+<div id="people">
+  <div id="Npeopletext"> Number of People</div> <div id="cantbetext">Can't be zero</div></div>
+  <input id="result0"  type="number" oninput="this.value = Math.round(this.value);"  class="inp"/>
+</div>
+
+
+
+</div>
+<div class="result">
+<div class="resultvalues">
+<div class="tipamountM">
+  <div id="tipamountText">
+
+    Tip Amount
+  </div>
+
+<div id="tipamountValue">
+
+  $0.00
+</div></div>
+<div class="tipamountM">
+<div id="totaltipamountText">
+
+  Total
+</div>
+<div id="totaltipamountValue">
+
+  $0.00
+</div>
+</div>
+
+
+
+</div>
+
+
+<button class="but" id="reset" value="0.25">Reset</button></div>
+</div>
+
+<script src="myscripts.js"></script>
+
+</body>
+
+
+
+</html>
